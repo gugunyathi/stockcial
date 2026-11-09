@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
-import { Activity, ArrowDownRight, ArrowUpRight, AudioLines, Bell, ChevronDown, CircleHelp, Compass, Heart, Info, Menu, MessageCircle, Plus, Search, Sparkles, Volume2, Wallet, X } from "lucide-react";
+import { Activity, ArrowDownRight, ArrowUpRight, AudioLines, Bell, ChevronDown, Compass, Heart, Info, MessageCircle, Plus, Search, Sparkles, Wallet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { listTokenizedStocks } from "@/lib/stocks.functions";
