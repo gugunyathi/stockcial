@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application architecture
+- Keep the public tokenized-stock catalog in an edge-compatible TanStack server function and keep mascot mood calculations as pure frontend logic, so public data handling stays safe without implying trade or social integrations exist.
